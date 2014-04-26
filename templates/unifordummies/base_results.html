@@ -1,0 +1,9 @@
+{% extends "unifordummies/base.html" %}
+
+{% block content %}
+<ul id="programmes">
+    {% for programme in programmes %}
+        <li id="programmes.{{programme.pkey}}">{{programme.name}}</li>
+    {% endfor %}
+</ul>
+{% endblock %}
