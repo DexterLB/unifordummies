@@ -3,8 +3,12 @@ from django.db import models
 class Uni(models.Model):
     name = models.CharField(max_length=200)
 
+class SpecCategoryCategory(models.Model):
+    name = models.CharField(max_length=200)
+
 class SpecCategory(models.Model):
     name = models.CharField(max_length=200)
+    category = models.ForeignKey(SpecCategoryCategory, related_name='categories')
 
 class PostCategory(models.Model):
     name = models.CharField(max_length=200)
