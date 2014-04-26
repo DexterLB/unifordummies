@@ -1,19 +1,7 @@
-<html>
-	<head>
-		<title>
+{% extends "unifordummies/base.html" %}
 
-		</title>
-	</head>
-	<body>
-		<!-- TODO: Template navbar -->
-		<div id="navbar">
-			<ul>
-				<li>Вход</li>
-				<li>Регистрация</li>
-			</ul>
-		</div>
-		<div id="categories">
-			{{categories | safe}}
-		</div>
-	</body>
-</html>
+{% block content %}
+<div id="categories">
+	{{categories | safe}}
+</div>
+{% endblock %}
