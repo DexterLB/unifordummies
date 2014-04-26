@@ -1,0 +1,18 @@
+{% extends "default/base.html" %}
+
+{% block content %}
+  <ul>
+    {% for cat_cat in spec_cat_cat %}
+      <li>
+        <h3>{{ cat_cat.name }}</h3>
+        <ul>
+          {% for cat in cat_cat.categories.all %}
+            <li>
+              {{ cat.name }}
+            </li>
+          {% endfor %}
+        </ul>
+      </li>
+    {% endfor %}
+  </ul>
+{% endblock %}

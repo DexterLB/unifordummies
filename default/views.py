@@ -11,5 +11,6 @@ class ProgrammeListView(ListView):
 
 
 def index_page_view(request):
-    spec_categories = models.SpecCategory
-    return render('index.html', {spec_categories: spec_categories})
+    spec_cat_cat = models.SpecCategoryCategory.objects.all()
+    print(spec_cat_cat)
+    return render(request, 'default/index.html', {'spec_cat_cat': spec_cat_cat})
