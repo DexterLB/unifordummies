@@ -1,6 +1,7 @@
 {% extends "default/base.html" %}
 
 {% block content %}
+<form method="post" action="/search/"> {% csrf_token %}
   <ul>
     {% for cat_cat in spec_cat_cat %}
       <li>
@@ -8,11 +9,24 @@
         <ul>
           {% for cat in cat_cat.categories.all %}
             <li>
-              {{ cat.name }}
+              <input type="checkbox" id="{{ cat.id }}-check"
+              name="{{ cat.id }}-cat">
+              <label for="{{ cat.id }}-check">{{ cat.name }}</label>
             </li>
           {% endfor %}
         </ul>
       </li>
     {% endfor %}
   </ul>
+  <input type="submit" value="Search!" />
+</form>
+
+<ul>
+  {% for cat in spec_cat %}
+    <li>
+      <a href="/search/{{cat.id}}">{{cat.name}}</a>
+    </li>
+  {% endfor %}
+</ul>
+
 {% endblock %}

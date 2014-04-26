@@ -1,0 +1,9 @@
+{% extends "default/base.html" %}
+
+{% block content %}
+<ul>
+  {% for res in results %}
+    <li>{{ res.name }} in {{ res.uni.name }}</li>
+  {% endfor %}
+</ul>
+{% endblock %}
