@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7639bdd6-51bd-40bb-862e-35bc9504e031" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="unifordummies.iws" />
@@ -26,19 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="programme_base.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/default/programme_base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="627">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="programme_list.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/default/programme_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="171">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="171">
               <folding />
             </state>
           </provider>
@@ -47,7 +38,7 @@
       <file leaf-file-name="programme.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/default/programme.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="19" selection-start="81" selection-end="81" vertical-scroll-proportion="-2.0357144" vertical-offset="0" max-vertical-offset="266">
+            <state line="3" column="19" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="684">
               <folding />
             </state>
           </provider>
@@ -56,7 +47,7 @@
       <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/default/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="8" selection-start="55" selection-end="55" vertical-scroll-proportion="-2.7142856" vertical-offset="0" max-vertical-offset="475">
+            <state line="4" column="8" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="475">
               <folding />
             </state>
           </provider>
@@ -65,7 +56,7 @@
       <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/unifordummies/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="96" selection-start="292" selection-end="377" vertical-scroll-proportion="-6.107143" vertical-offset="0" max-vertical-offset="532">
+            <state line="9" column="96" selection-start="292" selection-end="377" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="532">
               <folding />
             </state>
           </provider>
@@ -74,7 +65,25 @@
       <file leaf-file-name="posts.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/default/posts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="18" selection-start="689" selection-end="689" vertical-scroll-proportion="-7.142857" vertical-offset="104" max-vertical-offset="684">
+            <state line="25" column="16" selection-start="1127" selection-end="1127" vertical-scroll-proportion="-16.964285" vertical-offset="0" max-vertical-offset="1159">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="45" selection-end="45" vertical-scroll-proportion="0.12816189" vertical-offset="0" max-vertical-offset="593">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="posts.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/unifordummies/posts.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="80" selection-start="565" selection-end="580" vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="760">
               <folding />
             </state>
           </provider>
@@ -84,9 +93,7 @@
         <entry file="file://$PROJECT_DIR$/default/ajax.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="27" column="12" selection-start="669" selection-end="669" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="760">
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -94,16 +101,7 @@
       <file leaf-file-name="search.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/default/search.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="664" selection-end="664" vertical-scroll-proportion="-16.964285" vertical-offset="0" max-vertical-offset="589">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/unifordummies/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="58" selection-end="58" vertical-scroll-proportion="-1.0513275" vertical-offset="651" max-vertical-offset="1216">
+            <state line="25" column="0" selection-start="664" selection-end="664" vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="589">
               <folding />
             </state>
           </provider>
@@ -112,7 +110,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/default/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="162" selection-end="162" vertical-scroll-proportion="-4.75" vertical-offset="0" max-vertical-offset="1216">
+            <state line="7" column="0" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="1216">
               <folding />
             </state>
           </provider>
@@ -144,7 +142,6 @@
         <option value="$PROJECT_DIR$/templates/default/programme.html" />
         <option value="$PROJECT_DIR$/templates/unifordummies/search.html" />
         <option value="$PROJECT_DIR$/templates/default/index.html" />
-        <option value="$PROJECT_DIR$/templates/unifordummies/index.html" />
         <option value="$PROJECT_DIR$/templates/unifordummies/base.html" />
         <option value="$PROJECT_DIR$/unifordummies/urls.py" />
         <option value="$PROJECT_DIR$/templates/unifordummies/posts.html" />
@@ -152,6 +149,9 @@
         <option value="$PROJECT_DIR$/templates/unifordummies/post.html" />
         <option value="$PROJECT_DIR$/templates/unifordummies/base_results.html" />
         <option value="$PROJECT_DIR$/templates/default/base.html" />
+        <option value="$PROJECT_DIR$/templates/unifordummies/index.html" />
+        <option value="$PROJECT_DIR$/templates/default/posts.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -216,6 +216,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="unifordummies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unifordummies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unifordummies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unifordummies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -310,123 +328,6 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/templates/unifordummies" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree">
-    <UpdateInfo date="Moments ago" ActionInfo="_Update">
-      <UpdatedFiles>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated from server" />
-          <option name="myStatusName" value="Changed on server" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CHANGED_ON_SERVER" />
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Updated" />
-            <option name="myStatusName" value="Changed" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" value="UPDATED" />
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/db.sqlite3</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/default/views.py</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies/urls.py</PATH>
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Created" />
-            <option name="myStatusName" value="Created" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" value="CREATED" />
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/default/ajax.py</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/posts-scripts.js</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/default/posts.html</PATH>
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Deleted" />
-            <option name="myStatusName" value="Deleted" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="true" />
-            <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Restored" />
-            <option name="myStatusName" value="Will be restored" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" value="RESTORED" />
-          </FILE-GROUP>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Modified" />
-          <option name="myStatusName" value="Modified" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MODIFIED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Skipped" />
-          <option name="myStatusName" value="Skipped" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="SKIPPED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Merged with conflicts" />
-          <option name="myStatusName" value="Will be merged with conflicts" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MERGED_WITH_CONFLICTS" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Merged with tree conflicts" />
-          <option name="myStatusName" value="Merged with tree conflicts" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Merged with property conflicts" />
-          <option name="myStatusName" value="Will be merged with property conflicts" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Merged" />
-          <option name="myStatusName" value="Will be merged" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MERGED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Not in repository" />
-          <option name="myStatusName" value="Not in repository" />
-          <option name="mySupportsDeletion" value="true" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UNKNOWN" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Locally added" />
-          <option name="myStatusName" value="Locally added" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="LOCALLY_ADDED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Locally removed" />
-          <option name="myStatusName" value="Locally removed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="LOCALLY_REMOVED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Switched" />
-          <option name="myStatusName" value="Switched" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="SWITCHED" />
-        </FILE-GROUP>
-      </UpdatedFiles>
-    </UpdateInfo>
   </component>
   <component name="RunManager">
     <configuration default="true" type="tests" factoryName="py.test">
@@ -604,7 +505,11 @@
       <created>1398597245894</created>
       <updated>1398597245894</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added title and date fields to posts page">
+      <created>1398602395568</created>
+      <updated>1398602395568</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -647,7 +552,8 @@
     <MESSAGE value="merged base.html" />
     <MESSAGE value="." />
     <MESSAGE value="much change (post and posts template and the corresponding views), such fixes, so work. wow." />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="added title and date fields to posts page" />
+    <option name="LAST_COMMIT_MESSAGE" value="added title and date fields to posts page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -661,65 +567,51 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/unifordummies/urls.py">
+    <entry file="file://$PROJECT_DIR$/templates/default/programme_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="56" selection-start="515" selection-end="515" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="475">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="171">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/unifordummies/base_results.html">
+    <entry file="file://$PROJECT_DIR$/templates/default/programme.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="285">
+        <state line="3" column="19" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="684">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unifordummies/views.py">
+    <entry file="file://$PROJECT_DIR$/templates/default/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="35" selection-start="1802" selection-end="1802" vertical-scroll-proportion="0.0" vertical-offset="684" max-vertical-offset="1330">
+        <state line="4" column="8" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="475">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/default/models.py">
+    <entry file="file://$PROJECT_DIR$/templates/unifordummies/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="0" selection-start="968" selection-end="968" vertical-scroll-proportion="0.0" vertical-offset="718" max-vertical-offset="1292">
+        <state line="9" column="96" selection-start="292" selection-end="377" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="532">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/default/posts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="16" selection-start="1127" selection-end="1127" vertical-scroll-proportion="0.0" vertical-offset="284" max-vertical-offset="1159">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/unifordummies/posts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="760">
+        <state line="10" column="80" selection-start="565" selection-end="580" vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="760">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/unifordummies/post.html">
+    <entry file="file://$PROJECT_DIR$/default/ajax.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="266">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/unifordummies/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0" vertical-offset="335" max-vertical-offset="1216">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/unifordummies/programme.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="228">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/unifordummies/search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="58" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="627">
+        <state line="27" column="12" selection-start="669" selection-end="669" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="760">
           <folding />
         </state>
       </provider>
@@ -731,11 +623,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unifordummies/urls.py">
+    <entry file="file://$PROJECT_DIR$/templates/default/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+        <state line="7" column="0" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="1216">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unifordummies/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="56" selection-start="515" selection-end="515" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="475" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/unifordummies/base_results.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="285" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unifordummies/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="35" selection-start="1802" selection-end="1802" vertical-scroll-proportion="0.0" vertical-offset="684" max-vertical-offset="1330" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/default/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="0" selection-start="968" selection-end="968" vertical-scroll-proportion="0.0" vertical-offset="718" max-vertical-offset="1292" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/unifordummies/posts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="760">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/unifordummies/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="266" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/unifordummies/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0" vertical-offset="335" max-vertical-offset="1216" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/unifordummies/programme.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="228" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/unifordummies/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="58" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="627" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/default/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="664" selection-end="664" vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="589">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unifordummies/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/unifordummies/__init__.py">
@@ -804,49 +755,89 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/unifordummies/search.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="58" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="627">
-          <folding />
-        </state>
+        <state line="16" column="58" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="627" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/default/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="0" selection-start="968" selection-end="968" vertical-scroll-proportion="0.0" vertical-offset="718" max-vertical-offset="1292">
-          <folding />
-        </state>
+        <state line="44" column="0" selection-start="968" selection-end="968" vertical-scroll-proportion="0.0" vertical-offset="718" max-vertical-offset="1292" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/unifordummies/post.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="266">
-          <folding />
-        </state>
+        <state line="8" column="0" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="266" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/unifordummies/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="35" selection-start="1802" selection-end="1802" vertical-scroll-proportion="0.0" vertical-offset="684" max-vertical-offset="1330">
+        <state line="47" column="35" selection-start="1802" selection-end="1802" vertical-scroll-proportion="0.0" vertical-offset="684" max-vertical-offset="1330" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/unifordummies/programme.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="931" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/default/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="8" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="475">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unifordummies/urls.py">
+    <entry file="file://$PROJECT_DIR$/templates/default/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="56" selection-start="515" selection-end="515" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="475">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/unifordummies/base_results.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="304" selection-end="304" vertical-scroll-proportion="-6.107143" vertical-offset="0" max-vertical-offset="285">
+        <state line="7" column="0" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="1216">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/default/search.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="664" selection-end="664" vertical-scroll-proportion="-16.964285" vertical-offset="0" max-vertical-offset="589">
+        <state line="25" column="0" selection-start="664" selection-end="664" vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="589">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/unifordummies/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="58" selection-end="58" vertical-scroll-proportion="0.03362832" vertical-offset="38" max-vertical-offset="1216" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unifordummies/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="497" selection-end="497" vertical-scroll-proportion="0.3524452" vertical-offset="0" max-vertical-offset="593" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/unifordummies/base_results.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="304" selection-end="304" vertical-scroll-proportion="-6.107143" vertical-offset="0" max-vertical-offset="285" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/default/ajax.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="12" selection-start="669" selection-end="669" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="760">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/default/programme.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="19" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="684">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/unifordummies/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="96" selection-start="292" selection-end="377" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="532">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/default/programme_base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="627">
           <folding />
         </state>
       </provider>
@@ -860,72 +851,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/unifordummies/posts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="6.107143" vertical-offset="171" max-vertical-offset="760">
+        <state line="10" column="80" selection-start="565" selection-end="580" vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="760">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/default/posts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="18" selection-start="689" selection-end="689" vertical-scroll-proportion="-7.142857" vertical-offset="104" max-vertical-offset="684">
+        <state line="25" column="16" selection-start="1127" selection-end="1127" vertical-scroll-proportion="-16.964285" vertical-offset="0" max-vertical-offset="1159">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/default/ajax.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="12" selection-start="669" selection-end="669" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="760">
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/unifordummies/programme.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="931">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/default/programme.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="19" selection-start="81" selection-end="81" vertical-scroll-proportion="-2.0357144" vertical-offset="0" max-vertical-offset="266">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/default/programme_base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="909">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/default/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="8" selection-start="55" selection-end="55" vertical-scroll-proportion="-2.7142856" vertical-offset="0" max-vertical-offset="475">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/unifordummies/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="96" selection-start="292" selection-end="377" vertical-scroll-proportion="-6.107143" vertical-offset="0" max-vertical-offset="532">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/default/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="162" selection-end="162" vertical-scroll-proportion="-4.75" vertical-offset="0" max-vertical-offset="1216">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/unifordummies/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="58" selection-end="58" vertical-scroll-proportion="-1.0513275" vertical-offset="651" max-vertical-offset="1216">
+        <state line="4" column="0" selection-start="45" selection-end="45" vertical-scroll-proportion="0.12816189" vertical-offset="0" max-vertical-offset="593">
           <folding />
         </state>
       </provider>
