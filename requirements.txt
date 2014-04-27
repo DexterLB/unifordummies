@@ -1,3 +1,5 @@
 Django==1.6.3
 South==0.8.4
+bpython==0.12
+django-admin-bootstrapped==1.6.4
 jack-bower==0.1.8
