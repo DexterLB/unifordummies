@@ -4,46 +4,44 @@
 
 {% block info %}
   <div class="row">
-    <h1>{{ programme.name }}</h1>
+    <a href="{{ programme.id }}/1"><h1>{{ programme.name }}</h1></a>
     <p>{{ programme.description }}</p>
   </div>
   <div class="row">
     <ul class="list-group">
       {% for post in most_voted_posts %}
         <li class="list-group-item">
-          <div class="row">
-            <div class="col-xs-1">
-              <div class="row">
-                <div class="col-xs-3">
-                  <a href="#" class="vote-link" data-db-id="{{ post.id }}" data-direction="up"><span class="glyphicon glyphicon-plus"></a>
+          <div class="list-group-item-heading">
+            <div class="row">
+              <div class="col-xs-1">
+                <div class="row">
+                  <div class="col-xs-3">
+                    <a href="#" class="vote-link" data-db-id="{{ post.id }}" data-direction="up"><span class="glyphicon glyphicon-plus"></a>
                     <a href="#" class="vote-link" data-db-id="{{ post.id }}" data-direction="down"><span class="glyphicon glyphicon-minus"></a>
+                  </div>
+                  <h2 data-votes-id="{{ post.id }}">{{ post.vote }}</h2>
                 </div>
-                <h2 data-votes-id="{{ post.id }}">{{ post.vote }} </h2>
+              </div>
+              <div class="col-xs-10">
+                <a href="{{ programme.id }}/post{{ post.id }}"><h2>{{ post.title }}</h2></a>
+              </div>
+              <div class="col-xs-6">
+                {{ post.date }}
               </div>
             </div>
-            <div class="col-xs-10">
-              {{ post.text }}
+            <div class="row">
+                <div class="col-xs-6">
+                    Категория: <a href="{{ programme.id }}/cat{{ post.category.id }}/1"><strong>{{ post.category }}</strong></a>
+                </div>
             </div>
+          </div>
+          <div class="list-group-item-text">
+              {{ post.text }}
           </div>
         </li>
       {% endfor %}
     </ul>
   </div>
-    <div class="btn-group" id="navbuttons">
-        {% if posts.has_previous %}
-        <a href="programme/{{ programme.id }}/{{ posts.previous_page_number }}" id="posts.goto(first)"><button type="button" class="btn btn-default" id="posts.goto(first).button">&lt;</button></a>
-        {% endif %}
-        {% for page in posts.paginator.page_range %}
-            {% if posts.number == page %}
-            <button type="button" class="btn btn-default" id="posts.goto({{ page }}).button">{{ page }}</button>
-            {% else %}
-            <a href="programme/{{ programme.id }}/{{ page }}"><button type="button" class="btn btn-default" id="posts.goto({{ page }}).button">{{ page }}</button></a>
-            {% endif %}
-        {% endfor %}
-        {% if posts.has_next %}
-        <a href="programme/{{ programme.id }}/{{ posts.next_page_number }}" id="posts.goto(last)"><button type="button" class="btn btn-default" id="posts.goto(last).button">&gt;</button></a>
-        {% endif %}
-    </div>
 {% endblock %}
 
 {% block scripts %}

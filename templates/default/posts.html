@@ -3,49 +3,60 @@
 {% load staticfiles %}
 
 {% block info %}
-  <ul class="list-group">
-    {% for post in posts %}
-    <li class="list-group-item">
-      <div class="list-group-item-heading">
-        <div class="row">
-          <div class="col-xs-1">
+  <div class="row">
+    <h1>{{ programme.name }}</h1>
+    <p>{{ programme.description }}</p>
+  </div>
+  <div class="row">
+      <ul class="list-group">
+        {% for post in posts %}
+        <li class="list-group-item">
+          <div class="list-group-item-heading">
             <div class="row">
-              <div class="col-xs-3">
-                <a href="#" class="vote-link" data-db-id="{{ post.id }}" data-direction="up"><span class="glyphicon glyphicon-plus"></a>
-                <a href="#" class="vote-link" data-db-id="{{ post.id }}" data-direction="down"><span class="glyphicon glyphicon-minus"></a>
+              <div class="col-xs-1">
+                <div class="row">
+                  <div class="col-xs-3">
+                    <a href="#" class="vote-link" data-db-id="{{ post.id }}" data-direction="up"><span class="glyphicon glyphicon-plus"></a>
+                    <a href="#" class="vote-link" data-db-id="{{ post.id }}" data-direction="down"><span class="glyphicon glyphicon-minus"></a>
+                  </div>
+                  <h2 data-votes-id="{{ post.id }}">{{ post.vote }}</h2>
+                </div>
               </div>
-              <h2 data-votes-id="{{ post.id }}">{{ post.vote }}</h2>
+              <div class="col-xs-10">
+                <a href="post{{ post.id }}"><h3>{{ post.title }}</h3></a>
+              </div>
+              <div class="col-xs-6">
+                {{ post.date }}
+              </div>
             </div>
-          </div>
-          <div class="col-xs-11">
-            <a href="programme/{{ programme.id }}/post{{ post.id }}">{{ post.title }}</a>
-          </div>
-          <div class="col-xs-6">
-            {{ post.date }}
-          </div>
-        </div>
-      </div>
-      <div class="list-group-item-text">
-          {{ post.text }}
-      </div>
-    </li>
-    {% endfor %}
-  </ul>
-    <div class="btn-group" id="navbuttons">
-        {% if posts.has_previous %}
-        <li><a href="programme/{{ programme.id }}/{{ posts.previous_page_number }}" id="posts.goto(first)"><button type="button" class="btn btn-default" id="posts.goto(first).button">&lt;</button></a></li>
-        {% endif %}
-        <li>
-        {% for page in posts.paginator.page_range %}
-            {% if posts.number == page %}
-            <button type="button" class="btn btn-default" id="posts.goto({{ page }}).button">{{ page }}</button>
-            {% else %}
-            <a href="programme/{{ programme.id }}/{{ page }}"><button type="button" class="btn btn-default" id="posts.goto({{ page }}).button">{{ page }}</button></a>
+            {% if cat_id %}
+            <div class="row">
+                <div class="col-xs-6">
+                    Категория: <a href="cat{{ post.category.id }}"><strong>{{ post.category }}</strong></a>
+                </div>
+            </div>
             {% endif %}
+          </div>
+          <div class="list-group-item-text">
+              {{ post.text }}
+          </div>
         </li>
         {% endfor %}
+      </ul>
+  </div>
+    <div class="btn-group" id="navbuttons">
+        {% if posts.has_previous %}
+        <a href="{{ posts.previous_page_number }}"><button type="button" class="btn btn-default"">&lt;</button></a>
+        {% endif %}
+        {% for page in posts.paginator.page_range %}
+            {% if posts.number == page %}
+            <button type="button" class="btn btn-default btn-disabled">{{ page }}</button>
+            {% else %}
+            <a href="{{ page }}"><button type="button" class="btn btn-default">{{ page }}</button></a>
+            {% endif %}
+        {% endfor %}
         {% if posts.has_next %}
-        <li><a href="programme/{{ programme.id }}/{{ posts.next_page_number }}" id="posts.goto(last)"><button type="button" class="btn btn-default" id="posts.goto(last).button">&gt;</button></a></li>
+        <a href="{{ posts.next_page_number }}"><button type="button" class="btn btn-default"">&gt;</button></a>
         {% endif %}
     </div>
 {% endblock %}

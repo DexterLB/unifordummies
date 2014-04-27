@@ -71,12 +71,13 @@ def posts_view(request, programme_id, cat_id, page_id):
         posts = models.Post.objects\
             .filter(programme__id=programme_id)\
             .order_by('-vote')
-    paginator = Paginator(posts, 20)
+    paginator = Paginator(posts, 10)
     try:
         posts_page = paginator.page(page_id)
     except EmptyPage:
         posts_page = paginator.page(paginator.num_pages)
     return render(request, 'default/posts.html', {
         'programme': programme,
-        'posts': posts_page
+        'posts': posts_page,
+        'cat_id': cat_id
     })
