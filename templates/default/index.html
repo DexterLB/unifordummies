@@ -2,6 +2,10 @@
 
 {% load staticfiles %}
 
+{% block styles %}
+  <link rel="stylesheet" href="{% static "css/index-styles.css" %}">
+{% endblock %}
+
 {% block content %}
 <div class="row">
   <div class="col-xs-3">
@@ -27,10 +31,10 @@
     <form method="post" action="/search/"> {% csrf_token %}
       {% for cat_cat in spec_cat_cat %}
         <div class="panel panel-primary">
-          <div class="panel-heading">
+          <div class="panel-heading category-heading" data-for="{{ cat_cat.id }}">
             <h3 class="panel-title">{{ cat_cat.name }}</h3>
           </div>
-          <ul class="list-group">
+          <ul class="list-group category-list" data-id="{{ cat_cat.id }}">
             {% for cat in cat_cat.categories.all %}
               <li class="list-group-item">
                 <input type="checkbox" id="{{ cat.id }}-check"
@@ -47,4 +51,8 @@
     </form>
   </div>
 </div>
+{% endblock %}
+
+{% block scripts %}
+  <script src="{% static "js/index-scripts.js" %}"></script>
 {% endblock %}
