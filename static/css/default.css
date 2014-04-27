@@ -18,3 +18,14 @@ body {
     font-family: 'Comfortaa', 'cursive';
     font-weight: 200;
 }
+
+.programme_block {
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.programme_url {
+    color: black;
+    padding-left: 30px;
+}
