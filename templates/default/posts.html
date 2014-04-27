@@ -3,6 +3,9 @@
 {% load staticfiles %}
 
 {% block info %}
+  <div class="row">
+    <h1><a href="{% url 'programme' programme.id %}">{{ programme.name }}</a></h1>
+  </div>
   <ul class="list-group">
     {% for post in posts %}
       <li class="list-group-item">
@@ -13,7 +16,7 @@
                 <a href="#" class="vote-link" data-db-id="{{ post.id }}" data-direction="up"><span class="glyphicon glyphicon-plus"></a>
                 <a href="#" class="vote-link" data-db-id="{{ post.id }}" data-direction="down"><span class="glyphicon glyphicon-minus"></a>
               </div>
-              <h2 data-votes-id="{{ post.id }}">{{ post.vote }}</h2>
+              <h3 data-votes-id="{{ post.id }}">{{ post.vote }}</h3>
             </div>
           </div>
           <div class="col-xs-11">
