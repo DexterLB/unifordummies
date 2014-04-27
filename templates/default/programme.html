@@ -1,5 +1,6 @@
-{% extends "default/base.html" %}
+{% extends "default/programme_base.html" %}
 
-{% block content %}
-  <h1>{{ programme.title }}</h1>
+{% block info %}
+  <h1>{{ programme.name }}</h1>
+  <p>{{ programme.description }}</p>
 {% endblock %}

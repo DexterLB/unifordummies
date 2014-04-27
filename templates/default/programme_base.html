@@ -1,0 +1,23 @@
+{% extends "default/base.html" %}
+
+{% load staticfiles %}
+
+{% block content %}
+  <div class="row">
+    <div class="col-xs-3">
+      <a href="/">
+        <img src="{% static "img/logo.png" %}" alt="UniForDummies Logo" width="250" height="250">
+      </a>
+      <ul class="nav nav-stacked">
+          <li> <a href="#">Кандидатстване</a> </li>
+          <li> <a href="#">Материална база</a> </li>
+          <li> <a href="#">Преподавателски състав</a> </li>
+          <li> <a href="#">Студенти</a> </li>
+          <li> <a href="#">Реализация</a> </li>
+      </ul>
+    </div>
+    <div class="col-xs-9">
+      {% block info %}{% endblock %}
+    </div>
+  </div>
+{% endblock %}
