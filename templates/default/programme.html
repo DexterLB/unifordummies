@@ -5,4 +5,26 @@
     <h1>{{ programme.name }}</h1>
     <p>{{ programme.description }}</p>
   </div>
+  <div class="row">
+    <ul class="list-group">
+      {% for post in most_voted_posts %}
+        <li class="list-group-item">
+          <div class="row">
+            <div class="col-xs-1">
+              <div class="row">
+                <div class="col-xs-3">
+                  <a href="#" class="vote-link" data-db-id="{{ post.id }}" data-direction="up"><span class="glyphicon glyphicon-plus"></a>
+                    <a href="#" class="vote-link" data-db-id="{{ post.id }}" data-direction="down"><span class="glyphicon glyphicon-minus"></a>
+                </div>
+                <h2 data-votes-id="{{ post.id }}">{{ post.vote }} </h2>
+              </div>
+            </div>
+            <div class="col-xs-10">
+              {{ post.text }}
+            </div>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
 {% endblock %}
