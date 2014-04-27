@@ -83,6 +83,11 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+# Shared static files
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, "static"),
+)
+
 TEMPLATE_LOADERS = (
     'django.template.loaders.filesystem.Loader',
     'django.template.loaders.app_directories.Loader',
