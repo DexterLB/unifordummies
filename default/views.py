@@ -22,8 +22,9 @@ def index_page_view(request):
 
 def search_cat_view(request, id):
     results = models.Programme.objects.filter(categories__id=id)
+    results_sorted = _sort_results(results)
     return render(request, 'default/search.html',
-                  {'results': results})
+                  {'results': results_sorted})
 
 
 # MAGIC: Don't touch!
@@ -39,8 +40,14 @@ def search_page_view(request):
         results = list(reduce(lambda x, y: set(x) & set(y),
                        [models.Programme.objects.filter(categories=cat)
                        for cat in ch_cats]))
+        results_sorted = _sort_results(results)
         return render(request, 'default/search.html',
-                      {'results': results})
+                      {'results': results_sorted})
+
+
+def _sort_results(results):
+    results_sorted = sorted(results, key=lambda x: x.rating, reverse=True)
+    return results_sorted
 
 
 def programme_view(request, programme_id):
