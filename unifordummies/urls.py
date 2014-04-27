@@ -10,7 +10,7 @@ urlpatterns = patterns('',  # nopep8
     url(r'^search/(?P<id>\d+)$', 'default.views.search_cat_view'),
     url(r'^programme/(?P<programme_id>\d+)$', 'default.views.programme_view'),
     url(r'^programme/(?P<programme_id>\d+)/(?P<cat_id>\d+)$',
-        'default.views.posts_view'),
+        'default.views.posts_view', name="post_category"),
 
     url(r'^admin/', include(admin.site.urls)),
 )
