@@ -26,7 +26,9 @@ def search_cat_view(request, id):
                   {'results': results})
 
 
-# HACK: Don't ask! Just don't...
+# MAGIC: Don't touch!
+# When I wrote this, only God and I understood what I was doing.
+# Now, only God knows.
 def search_page_view(request):
     if request.method == 'POST':
         req_dict = request.POST
@@ -39,3 +41,9 @@ def search_page_view(request):
                        for cat in ch_cats]))
         return render(request, 'default/search.html',
                       {'results': results})
+
+
+def programme_view(request, id):
+    programme = models.Programme.objects.get(id=id)
+    return render(request, 'default/progrmame.html',
+                  {'programme': programme})

@@ -16,7 +16,7 @@ urlpatterns = patterns('',  # nopep8
     url(r'^$', 'default.views.index_page_view'),
     url(r'^search/$', 'default.views.search_page_view'),
     url(r'^search/(?P<id>\d+)$', 'default.views.search_cat_view'),
-    # url(r'^blog/', include('blog.urls')),
+    url(r'^programme/(?P<id>)\d+$', 'default.views.programme_view'),
 
     url(r'^admin/', include(admin.site.urls)),
 )
