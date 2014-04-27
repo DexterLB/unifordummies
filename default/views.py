@@ -58,7 +58,7 @@ def programme_view(request, programme_id):
 
 def posts_view(request, programme_id, cat_id):
     programme = models.Programme.objects.get(id=programme_id)
-    posts = models.Post.objects.filter(category__id=cat_id).order_by('-vote')
+    posts = models.Post.objects.filter(category__id=cat_id, programme__id=programme_id).order_by('-vote')
 
     return render(request, 'default/posts.html', {
         'programme': programme,
