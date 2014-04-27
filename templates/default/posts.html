@@ -5,7 +5,8 @@
 {% block info %}
   <ul class="list-group">
     {% for post in posts %}
-      <li class="list-group-item">
+    <li class="list-group-item">
+      <div class="list-group-item-heading">
         <div class="row">
           <div class="col-xs-1">
             <div class="row">
@@ -17,12 +18,36 @@
             </div>
           </div>
           <div class="col-xs-11">
-            {{ post.text }}
+            <a href="programme/{{ programme.id }}/post{{ post.id }}">{{ post.title }}</a>
           </div>
+          <div class="col-xs-6">
+            {{ post.date }}
+          </div>
+        </div>
+      </div>
+      <div class="list-group-item-text">
+          {{ post.text }}
       </div>
     </li>
     {% endfor %}
   </ul>
+    <div class="btn-group" id="navbuttons">
+        {% if posts.has_previous %}
+        <li><a href="programme/{{ programme.id }}/{{ posts.previous_page_number }}" id="posts.goto(first)"><button type="button" class="btn btn-default" id="posts.goto(first).button">&lt;</button></a></li>
+        {% endif %}
+        <li>
+        {% for page in posts.paginator.page_range %}
+            {% if posts.number == page %}
+            <button type="button" class="btn btn-default" id="posts.goto({{ page }}).button">{{ page }}</button>
+            {% else %}
+            <a href="programme/{{ programme.id }}/{{ page }}"><button type="button" class="btn btn-default" id="posts.goto({{ page }}).button">{{ page }}</button></a>
+            {% endif %}
+        </li>
+        {% endfor %}
+        {% if posts.has_next %}
+        <li><a href="programme/{{ programme.id }}/{{ posts.next_page_number }}" id="posts.goto(last)"><button type="button" class="btn btn-default" id="posts.goto(last).button">&gt;</button></a></li>
+        {% endif %}
+    </div>
 {% endblock %}
 
 {% block scripts %}

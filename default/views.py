@@ -2,7 +2,7 @@ from functools import reduce
 
 from django.shortcuts import render
 from django.views.generic import ListView
-
+from django.core.paginator import Paginator, EmptyPage
 from default import models
 
 
@@ -61,14 +61,22 @@ def programme_view(request, programme_id):
     })
 
 
-def posts_view(request, programme_id, cat_id):
+def posts_view(request, programme_id, cat_id, page_id):
     programme = models.Programme.objects.get(id=programme_id)
-    posts = models.Post.objects\
-        .filter(category__id=cat_id, programme__id=programme_id)\
-        .order_by('-vote')
-
+    if cat_id:
+        posts = models.Post.objects\
+            .filter(category__id=cat_id, programme__id=programme_id)\
+            .order_by('-vote')
+    else:
+        posts = models.Post.objects\
+            .filter(programme__id=programme_id)\
+            .order_by('-vote')
+    paginator = Paginator(posts, 20)
+    try:
+        posts_page = paginator.page(page_id)
+    except EmptyPage:
+        posts_page = paginator.page(paginator.num_pages)
     return render(request, 'default/posts.html', {
         'programme': programme,
-        'selected_cat_id': cat_id,
-        'posts': posts,
+        'posts': posts_page
     })

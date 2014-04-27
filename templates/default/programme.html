@@ -29,6 +29,21 @@
       {% endfor %}
     </ul>
   </div>
+    <div class="btn-group" id="navbuttons">
+        {% if posts.has_previous %}
+        <a href="programme/{{ programme.id }}/{{ posts.previous_page_number }}" id="posts.goto(first)"><button type="button" class="btn btn-default" id="posts.goto(first).button">&lt;</button></a>
+        {% endif %}
+        {% for page in posts.paginator.page_range %}
+            {% if posts.number == page %}
+            <button type="button" class="btn btn-default" id="posts.goto({{ page }}).button">{{ page }}</button>
+            {% else %}
+            <a href="programme/{{ programme.id }}/{{ page }}"><button type="button" class="btn btn-default" id="posts.goto({{ page }}).button">{{ page }}</button></a>
+            {% endif %}
+        {% endfor %}
+        {% if posts.has_next %}
+        <a href="programme/{{ programme.id }}/{{ posts.next_page_number }}" id="posts.goto(last)"><button type="button" class="btn btn-default" id="posts.goto(last).button">&gt;</button></a>
+        {% endif %}
+    </div>
 {% endblock %}
 
 {% block scripts %}
