@@ -31,6 +31,13 @@ class Programme(models.Model):
     description = models.TextField()
     name = models.CharField(max_length=200)
 
+    def _get_rating(self):
+        rating = 0
+        for post in self.posts.all():
+            rating += post.vote
+        return rating
+    rating = property(_get_rating)
+
     def __str__(self):
         return self.name
 
