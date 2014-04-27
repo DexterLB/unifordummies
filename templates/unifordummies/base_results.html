@@ -2,8 +2,8 @@
 
 {% block content %}
         <ul id="programmes">
-            {% for programme in programmes %}
-                <li id="programmes.{{programme.pkey}}">{{programme.name}}</li>
+            {% for programme in others %}
+                <li id="programmes.{{programme.id}}"><a href="programme/{{programme.id}}">{{programme.name}}</a></li>
             {% endfor %}
         </ul>
 {% endblock %}
