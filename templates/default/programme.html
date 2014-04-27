@@ -1,5 +1,7 @@
 {% extends "default/programme_base.html" %}
 
+{% load staticfiles %}
+
 {% block info %}
   <div class="row">
     <h1>{{ programme.name }}</h1>
@@ -27,4 +29,8 @@
       {% endfor %}
     </ul>
   </div>
+{% endblock %}
+
+{% block scripts %}
+  <script src="{% static "js/programme-scripts.js" %}"></script>
 {% endblock %}
