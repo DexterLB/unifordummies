@@ -35,33 +35,29 @@ def search_page_view(request):
         results = list(reduce(lambda x, y: set(x) & set(y),
                        [models.Programme.objects.filter(categories=cat)
                        for cat in ch_cats]))
-        return render(request, 'unifordummies/search.html',
-                      {'results': results})
+        request.session['results'] = results
+        return render(request, 'unifordummies/search.html', {'results': request.session['results']})
 
 
 def programme_view(request, id):
-    programme = models.Programme.objects.filter(id = id).order_by('name')
-    return render(request, 'unifordummies/programme.html', {'programme': programme})
+    programme = models.Programme.objects.get(id = id)
+    return render(request, 'unifordummies/programme.html', {'programme': programme, {'others': request.session['results'][:10]}})
 
 
 def post_view(request, postid):
-    post = models.Post.objects.filter(id = postid).order_by('id')
-    return render(request, 'unifordummies/post.html', {'post': post})
+    post = models.Post.objects.get(id = postid)
+    return render(request, 'unifordummies/post.html', {'programme': post.programme, 'post': post, {'others': request.session['results'][:10]}})
 
 
 def posts_view(request, prid, pid):
+    posts = models.Posts.objects.filter(programme = prid).order_by('vote')
+    paginator = Paginator(posts, 20)
     try:
-        posts = Posts.objects.get(programme = prid).order_by('id')
-        page = prid
-        paginator = Paginator(posts, 20)
-        posts = paginator.page(page)
+        posts = paginator.page(pid)
+    except EmptyPage:
+        posts = paginator.page(paginator.num_pages)
 
-        if page * i < len(posts):
-            return render(request, 'unifordummies/posts.html', {'programme': programme_, 'posts': posts})
-        else:
-            return render(request, 'unifordummies/error.html', {'error': 'Page does not exist'})
-    except:
-        return render(request, 'unifordummies/error.html', {'error': 'Page does not exist'})
+    return render(request, 'unifordummies/posts.html', {'programme': models.Programme.objects.get(id = prid), 'posts': posts, {'others': request.session['results'][:10]}})
 
 
 def index(request):

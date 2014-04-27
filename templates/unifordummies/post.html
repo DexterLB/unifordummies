@@ -1,7 +1,8 @@
 {% extends "unifordummies/base_results.html" %}
 
-{% block title %}Мнениe за {{programme}}{% endblock %}
+{% block title %}{{ programme.title | truncatewords: 10 }} - Мнениe за {{programme.name}}{% endblock %}
 
 {% block content %}
-<div id="{{programme}}.posts.{{post.id}}">{{post.text}}</div>
+<div id="{{ programme.title }}.posts.{{ post.vote }}">{{ post.vote }}</div>
+<div id="{{ programme.title }}.posts.{{ post.id }}">{{ post.text }}</div>
 {% endblock %}
