@@ -9,3 +9,12 @@ body {
 .nav_box {
     background-color: rgba(204, 204, 204, 0.5);
 }
+
+.title_left {
+    text-align: center;
+}
+
+.title_left .title_right {
+    font-family: 'Comfortaa', 'cursive';
+    font-weight: 200;
+}
