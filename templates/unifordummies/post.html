@@ -1,5 +1,7 @@
 {% extends "unifordummies/base_results.html" %}
 
+{% block title %}Мнениe за {{programme}}{% endblock %}
+
 {% block content %}
 <div id="{{programme}}.posts.{{post.pkey}}">{{post.text}}</div>
 {% endblock %}

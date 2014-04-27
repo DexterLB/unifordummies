@@ -25,4 +25,5 @@ class Post(models.Model):
     category = models.ManyToManyField(PostCategory, related_name='posts')
     date = models.DateField(auto_now=True)
     vote = models.IntegerField()
+    poster = models.CharField(max_length=200)
     programme = models.ForeignKey(Programme, related_name='posts')
