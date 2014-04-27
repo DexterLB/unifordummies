@@ -8,7 +8,6 @@ from default.views import ProgrammeListView
 
 urlpatterns = patterns('',  # nopep8
     url(r'^home/$', 'unifordummies.views.index', name='index'),
-    url(r'^test/$', 'unifordummies.views.test', name='test'),
     url(r'^post/$', 'unifordummies.views.post', name='post'),
     url(r'^posts/$', 'unifordummies.views.posts', name='posts'),
     url(r'^programmes/', ProgrammeListView.as_view(), name='programmes'),

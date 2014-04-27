@@ -8,7 +8,7 @@ class SpecCategoryCategory(models.Model):
 
 class SpecCategory(models.Model):
     name = models.CharField(max_length=200)
-    category = models.ManyToManyField(SpecCategoryCategory, related_name='categories')
+    category = models.ForeignKey(SpecCategoryCategory, related_name='categories')
 
 class Programme(models.Model):
     categories = models.ManyToManyField(SpecCategory, related_name='programmes')
