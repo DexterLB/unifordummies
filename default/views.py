@@ -43,7 +43,7 @@ def search_page_view(request):
                       {'results': results})
 
 
-def programme_view(request, id):
-    programme = models.Programme.objects.get(id=id)
-    return render(request, 'default/progrmame.html',
+def programme_view(request, programme_id):
+    programme = models.Programme.objects.get(id=programme_id)
+    return render(request, 'default/programme.html',
                   {'programme': programme})

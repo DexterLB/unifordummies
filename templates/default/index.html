@@ -4,23 +4,26 @@
 
 {% block content %}
 <div class="row">
-  <div class="col-xs-8 col-xs-offset-2">
-    <h1>Добре дошли в UniForDummies!</h1>
-  </div>
-</div>
-<div class="row">
   <div class="col-xs-3">
-    <img src="{% static "img/logo.png" %}" alt="UniForDummies Logo" width="250" height="250">
-    <ul class="nav nav-stacked">
-      {% for cat in spec_cat %}
-        <li>
-          <a href="/search/{{cat.id}}">{{cat.name}}</a>
-        </li>
-      {% endfor %}
-    </ul>
+    <div class="row">
+      <h1>UniForDummies</h1>
+    </div>
+    <div class="row">
+      <img src="{% static "img/logo.png" %}" alt="UniForDummies Logo" width="250" height="250">
+    </div>
+    <div class="row">
+      <ul class="nav nav-stacked">
+        {% for cat in spec_cat %}
+          <li>
+            <a href="/search/{{cat.id}}">{{cat.name}}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
   </div>
 
   <div class="col-xs-9">
+    <h1>Портал за кандидат-студенти</h1>
     <form method="post" action="/search/"> {% csrf_token %}
       {% for cat_cat in spec_cat_cat %}
         <div class="panel panel-primary">
