@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7639bdd6-51bd-40bb-862e-35bc9504e031" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/default/posts.html" afterPath="$PROJECT_DIR$/templates/default/posts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/default/programme.html" afterPath="$PROJECT_DIR$/templates/default/programme.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/default/views.py" afterPath="$PROJECT_DIR$/default/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/unifordummies/post.html" afterPath="$PROJECT_DIR$/templates/unifordummies/post.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/default/programme_base.html" afterPath="$PROJECT_DIR$/templates/default/programme_base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="unifordummies.iws" />
@@ -29,59 +28,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/unifordummies/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="21" selection-start="330" selection-end="340" vertical-scroll-proportion="0.1632653" vertical-offset="0" max-vertical-offset="931">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="programme_base.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/default/programme_base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="36" selection-start="365" selection-end="365" vertical-scroll-proportion="-8.821428" vertical-offset="0" max-vertical-offset="627">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="programme.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/default/programme.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="5.535714" vertical-offset="155" max-vertical-offset="1045">
+            <state line="3" column="0" selection-start="68" selection-end="68" vertical-scroll-proportion="3.5" vertical-offset="155" max-vertical-offset="1045">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="posts.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/default/posts.html">
+      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/default/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="12" selection-start="2039" selection-end="2039" vertical-scroll-proportion="0.61573035" vertical-offset="478" max-vertical-offset="1368">
+            <state line="4" column="8" selection-start="55" selection-end="55" vertical-scroll-proportion="-2.7142856" vertical-offset="0" max-vertical-offset="475">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/default/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="34" selection-start="2590" selection-end="2590" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1691">
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/default/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="0" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.0" vertical-offset="361" max-vertical-offset="1292">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unifordummies/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="81" selection-start="463" selection-end="479" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="513">
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="posts.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Плот/posts.html">
+        <entry file="file://$PROJECT_DIR$/templates/default/posts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="1037" selection-end="1116" vertical-scroll-proportion="-18.321428" vertical-offset="0" max-vertical-offset="1159">
+            <state line="27" column="14" selection-start="1071" selection-end="1071" vertical-scroll-proportion="-1.25" vertical-offset="478" max-vertical-offset="1368">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/default/search.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="0" selection-start="664" selection-end="664" vertical-scroll-proportion="-16.964285" vertical-offset="0" max-vertical-offset="589">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/default/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="0" selection-start="162" selection-end="162" vertical-scroll-proportion="6.428571" vertical-offset="313" max-vertical-offset="1216">
               <folding />
             </state>
           </provider>
@@ -110,20 +114,20 @@
         <option value="$PROJECT_DIR$/unifordummies/results.html" />
         <option value="$PROJECT_DIR$/templates/unifordummies/results.html" />
         <option value="$PROJECT_DIR$/default/models.py" />
+        <option value="$PROJECT_DIR$/templates/default/programme.html" />
         <option value="$PROJECT_DIR$/templates/unifordummies/search.html" />
         <option value="$PROJECT_DIR$/templates/default/index.html" />
         <option value="$PROJECT_DIR$/templates/unifordummies/base.html" />
+        <option value="$PROJECT_DIR$/unifordummies/urls.py" />
         <option value="$PROJECT_DIR$/templates/unifordummies/posts.html" />
         <option value="$PROJECT_DIR$/unifordummies/views.py" />
-        <option value="$PROJECT_DIR$/templates/unifordummies/post.html" />
         <option value="$PROJECT_DIR$/templates/unifordummies/base_results.html" />
         <option value="$PROJECT_DIR$/templates/default/base.html" />
         <option value="$PROJECT_DIR$/templates/unifordummies/index.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/unifordummies/urls.py" />
-        <option value="$PROJECT_DIR$/default/views.py" />
-        <option value="$PROJECT_DIR$/templates/default/programme.html" />
         <option value="$PROJECT_DIR$/templates/default/posts.html" />
+        <option value="$PROJECT_DIR$/templates/unifordummies/post.html" />
+        <option value="$PROJECT_DIR$/templates/default/programme_base.html" />
       </list>
     </option>
   </component>
@@ -489,18 +493,13 @@
       <created>1398602908583</created>
       <updated>1398602908583</updated>
     </task>
-    <task id="LOCAL-00011" summary="trying to fix posts page, make the page display more post attributes and make the page buttons display and work">
-      <created>1398606866827</created>
-      <updated>1398606866827</updated>
-    </task>
-    <option name="localTasksCounter" value="12" />
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="0" width="1924" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -515,6 +514,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -538,8 +538,7 @@
     <MESSAGE value="much change (post and posts template and the corresponding views), such fixes, so work. wow." />
     <MESSAGE value="added title and date fields to posts page" />
     <MESSAGE value="added .idea to .gitignore" />
-    <MESSAGE value="trying to fix posts page, make the page display more post attributes and make the page buttons display and work" />
-    <option name="LAST_COMMIT_MESSAGE" value="trying to fix posts page, make the page display more post attributes and make the page buttons display and work" />
+    <option name="LAST_COMMIT_MESSAGE" value="added .idea to .gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -553,6 +552,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templates/default/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="664" selection-end="664" vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="589">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/default/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="1216">
@@ -710,6 +716,11 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="285" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/default/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="772" selection-end="1643" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1045" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/unifordummies/programme_list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="903" />
@@ -739,9 +750,14 @@
         <state line="16" column="58" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="627" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/unifordummies/post.html">
+    <entry file="file://$PROJECT_DIR$/default/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="266" />
+        <state line="44" column="0" selection-start="968" selection-end="968" vertical-scroll-proportion="0.0" vertical-offset="718" max-vertical-offset="1292" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unifordummies/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="35" selection-start="1802" selection-end="1802" vertical-scroll-proportion="0.0" vertical-offset="684" max-vertical-offset="1330" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/unifordummies/programme.html">
@@ -754,11 +770,6 @@
         <state line="3" column="0" selection-start="58" selection-end="58" vertical-scroll-proportion="0.03362832" vertical-offset="38" max-vertical-offset="1216" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/unifordummies/base_results.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="304" selection-end="304" vertical-scroll-proportion="-6.107143" vertical-offset="0" max-vertical-offset="285" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/default/ajax.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="12" selection-start="669" selection-end="669" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="760">
@@ -766,21 +777,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/default/programme_base.html">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="627" />
+        <state line="4" column="0" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="190">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/default/search.html">
+    <entry file="file://$PROJECT_DIR$/templates/unifordummies/posts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="664" selection-end="664" vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="589">
+        <state line="26" column="27" selection-start="1427" selection-end="1427" vertical-scroll-proportion="-17.642857" vertical-offset="0" max-vertical-offset="760">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/unifordummies/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="423" selection-end="2647" vertical-scroll-proportion="0.021348314" vertical-offset="266" max-vertical-offset="1444">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/unifordummies/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="96" selection-start="292" selection-end="377" vertical-scroll-proportion="0.18936877" vertical-offset="0" max-vertical-offset="903">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/unifordummies/base_results.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="304" selection-end="304" vertical-scroll-proportion="-6.107143" vertical-offset="0" max-vertical-offset="285">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/default/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="1216">
+        <state line="7" column="0" selection-start="162" selection-end="162" vertical-scroll-proportion="6.428571" vertical-offset="313" max-vertical-offset="1216">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/default/posts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="14" selection-start="1071" selection-end="1071" vertical-scroll-proportion="-1.25" vertical-offset="478" max-vertical-offset="1368">
           <folding />
         </state>
       </provider>
@@ -792,78 +833,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/unifordummies/base.html">
+    <entry file="file://$PROJECT_DIR$/templates/default/programme.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="96" selection-start="292" selection-end="377" vertical-scroll-proportion="-6.107143" vertical-offset="0" max-vertical-offset="532">
+        <state line="3" column="0" selection-start="68" selection-end="68" vertical-scroll-proportion="3.5" vertical-offset="155" max-vertical-offset="1045">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unifordummies/views.py">
+    <entry file="file://$PROJECT_DIR$/templates/default/search.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="36" selection-start="2108" selection-end="2108" vertical-scroll-proportion="0.0" vertical-offset="35" max-vertical-offset="1330">
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/unifordummies/posts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="48" selection-end="48" vertical-scroll-proportion="0.021889402" vertical-offset="0" max-vertical-offset="868">
+        <state line="25" column="0" selection-start="664" selection-end="664" vertical-scroll-proportion="-16.964285" vertical-offset="0" max-vertical-offset="589">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/templates/default/programme_base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="45" selection-end="45" vertical-scroll-proportion="0.08163265" vertical-offset="0" max-vertical-offset="931">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/default/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="0" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.0" vertical-offset="361" max-vertical-offset="1292">
+        <state line="13" column="36" selection-start="365" selection-end="365" vertical-scroll-proportion="-8.821428" vertical-offset="0" max-vertical-offset="627">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/unifordummies/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="81" selection-start="463" selection-end="479" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="513">
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Плот/posts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="1037" selection-end="1116" vertical-scroll-proportion="-18.321428" vertical-offset="0" max-vertical-offset="1159">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/default/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="34" selection-start="2590" selection-end="2590" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1691">
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/default/programme.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="5.535714" vertical-offset="155" max-vertical-offset="1045">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/default/posts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="12" selection-start="2039" selection-end="2039" vertical-scroll-proportion="0.61573035" vertical-offset="478" max-vertical-offset="1368">
+        <state line="10" column="21" selection-start="330" selection-end="340" vertical-scroll-proportion="0.1632653" vertical-offset="0" max-vertical-offset="931">
           <folding />
         </state>
       </provider>

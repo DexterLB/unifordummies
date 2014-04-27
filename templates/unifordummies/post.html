@@ -1,8 +1,70 @@
-{% extends "unifordummies/base_results.html" %}
-
-{% block title %}{{ programme.title | truncatewords: 10 }} - Мнениe за {{programme.name}}{% endblock %}
-
 {% block content %}
 <div id="{{ programme.title }}.posts.{{ post.vote }}">{{ post.vote }}</div>
 <div id="{{ programme.title }}.posts.{{ post.id }}">{{ post.text }}</div>
+{% endblock %}
+{% extends "default/programme_base.html" %}
+
+{% load staticfiles %}
+
+{% block info %}
+  <div class="row">
+    <h1>{{ programme.name }}</h1>
+    <p>{{ programme.description }}</p>
+  </div>
+  <div class="row">
+      <ul class="list-group">
+        {% for post in posts %}
+        <li class="list-group-item">
+          <div class="list-group-item-heading">
+            <div class="row">
+              <div class="col-xs-1">
+                <div class="row">
+                  <div class="col-xs-3">
+                    <a href="#" class="vote-link" data-db-id="{{ post.id }}" data-direction="up"><span class="glyphicon glyphicon-plus"></a>
+                    <a href="#" class="vote-link" data-db-id="{{ post.id }}" data-direction="down"><span class="glyphicon glyphicon-minus"></a>
+                  </div>
+                  <h2 data-votes-id="{{ post.id }}">{{ post.vote }}</h2>
+                </div>
+              </div>
+              <div class="col-xs-10">
+                <a href="post{{ post.id }}"><h3>{{ post.title }}</h3></a>
+              </div>
+              <div class="col-xs-6">
+                {{ post.date }}
+              </div>
+            </div>
+            {% if cat_id %}
+            <div class="row">
+                <div class="col-xs-6">
+                    Категория: <a href="cat{{ post.category.id }}"><strong>{{ post.category }}</strong></a>
+                </div>
+            </div>
+            {% endif %}
+          </div>
+          <div class="list-group-item-text">
+              {{ post.text }}
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+  </div>
+    <div class="btn-group" id="navbuttons">
+        {% if posts.has_previous %}
+        <a href="{{ posts.previous_page_number }}"><button type="button" class="btn btn-default"">&lt;</button></a>
+        {% endif %}
+        {% for page in posts.paginator.page_range %}
+            {% if posts.number == page %}
+            <button type="button" class="btn btn-default btn-disabled">{{ page }}</button>
+            {% else %}
+            <a href="{{ page }}"><button type="button" class="btn btn-default">{{ page }}</button></a>
+            {% endif %}
+        {% endfor %}
+        {% if posts.has_next %}
+        <a href="{{ posts.next_page_number }}"><button type="button" class="btn btn-default"">&gt;</button></a>
+        {% endif %}
+    </div>
+{% endblock %}
+
+{% block scripts %}
+  <script src="{% static "js/posts-scripts.js" %}"></script>
 {% endblock %}

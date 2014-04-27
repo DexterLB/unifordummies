@@ -12,11 +12,11 @@
       </div>
       <div class="row nav_box">
         <ul class="nav nav-stacked">
-          <li> <a href="{% url 'post_category' programme.id 1 %}">Кандидатстване</a> </li>
-          <li> <a href="{% url 'post_category' programme.id 2 %}">Материална база</a> </li>
-          <li> <a href="{% url 'post_category' programme.id 3 %}">Преподавателски състав</a> </li>
-          <li> <a href="{% url 'post_category' programme.id 4 %}">Студенти</a> </li>
-          <li> <a href="{% url 'post_category' programme.id 5 %}">Реализация</a> </li>
+          <li> <a href="/programme/{{ programme.id }}/cat1/1">Кандидатстване</a> </li>
+          <li> <a href="/programme/{{ programme.id }}/cat2/1">Материална база</a> </li>
+          <li> <a href="/programme/{{ programme.id }}/cat3/1">Преподавателски състав</a> </li>
+          <li> <a href="/programme/{{ programme.id }}/cat4/1">Студенти</a> </li>
+          <li> <a href="/programme/{{ programme.id }}/cat5/1">Реализация</a> </li>
         </ul>
       </div>
     </div>
