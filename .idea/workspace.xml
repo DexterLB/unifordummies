@@ -1,0 +1,1023 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7639bdd6-51bd-40bb-862e-35bc9504e031" name="Default" comment="" />
+    <ignored path="unifordummies.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="unifordummies" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/unifordummies/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="56" selection-start="515" selection-end="515" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="475">
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base_results.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/unifordummies/base_results.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="0" selection-start="304" selection-end="304" vertical-scroll-proportion="0.30265486" vertical-offset="0" max-vertical-offset="565">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/unifordummies/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="35" selection-start="1802" selection-end="1802" vertical-scroll-proportion="0.0" vertical-offset="684" max-vertical-offset="1330">
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/default/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="0" selection-start="968" selection-end="968" vertical-scroll-proportion="0.0" vertical-offset="718" max-vertical-offset="1292">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="posts.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/unifordummies/posts.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="6.107143" vertical-offset="171" max-vertical-offset="760">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/unifordummies/post.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="0" selection-start="339" selection-end="339" vertical-scroll-proportion="-4.75" vertical-offset="19" max-vertical-offset="266">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/unifordummies/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="58" selection-end="58" vertical-scroll-proportion="9.928572" vertical-offset="335" max-vertical-offset="1216">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="programme.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/unifordummies/programme.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="228">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/unifordummies/search.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="58" selection-start="481" selection-end="481" vertical-scroll-proportion="-10.857142" vertical-offset="0" max-vertical-offset="627">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/default/search.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="0" selection-start="664" selection-end="664" vertical-scroll-proportion="-16.964285" vertical-offset="0" max-vertical-offset="589">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/templates/unifordummies/post.html.py" />
+        <option value="$PROJECT_DIR$/unifordummies/error.html" />
+        <option value="$PROJECT_DIR$/unifordummies/results.html" />
+        <option value="$PROJECT_DIR$/templates/unifordummies/results.html" />
+        <option value="$PROJECT_DIR$/default/models.py" />
+        <option value="$PROJECT_DIR$/templates/default/programme.html" />
+        <option value="$PROJECT_DIR$/templates/unifordummies/search.html" />
+        <option value="$PROJECT_DIR$/templates/default/index.html" />
+        <option value="$PROJECT_DIR$/templates/unifordummies/index.html" />
+        <option value="$PROJECT_DIR$/templates/unifordummies/base.html" />
+        <option value="$PROJECT_DIR$/unifordummies/urls.py" />
+        <option value="$PROJECT_DIR$/templates/unifordummies/posts.html" />
+        <option value="$PROJECT_DIR$/unifordummies/views.py" />
+        <option value="$PROJECT_DIR$/templates/unifordummies/post.html" />
+        <option value="$PROJECT_DIR$/templates/unifordummies/base_results.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-2" />
+    <option name="width" value="1924" />
+    <option name="height" value="1057" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unifordummies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unifordummies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unifordummies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unifordummies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unifordummies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unifordummies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unifordummies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unifordummies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unifordummies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unifordummies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unifordummies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unifordummies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unifordummies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/Homeworks" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="SearchEverywhereHistory" value="" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="220" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="245" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="250" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1160" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="231" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="241" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="247" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1156" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings />
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/unifordummies" />
+    </key>
+  </component>
+  <component name="RestoreUpdateTree">
+    <UpdateInfo date="Moments ago" ActionInfo="_Update">
+      <UpdatedFiles>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated from server" />
+          <option name="myStatusName" value="Changed on server" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CHANGED_ON_SERVER" />
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Updated" />
+            <option name="myStatusName" value="Changed" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="UPDATED" />
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/db.sqlite3</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/default/models.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/default/views.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/css/bootstrap.min.css</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/default/base.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/default/index.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/default/programme.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies/settings.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies/urls.py</PATH>
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Created" />
+            <option name="myStatusName" value="Created" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="CREATED" />
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/css/default.css</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/css/index-styles.css</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/img/bg.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/index-scripts.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/default/programme_base.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped-1.6.4-py3.4.egg-info/PKG-INFO</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped-1.6.4-py3.4.egg-info/SOURCES.txt</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped-1.6.4-py3.4.egg-info/dependency_links.txt</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped-1.6.4-py3.4.egg-info/installed-files.txt</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped-1.6.4-py3.4.egg-info/not-zip-safe</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped-1.6.4-py3.4.egg-info/requires.txt</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped-1.6.4-py3.4.egg-info/top_level.txt</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/__init__.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/admin/__init__.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/admin/models.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/__init__.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/static/admin/css/admin-inlines.css</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/static/admin/css/overrides.css</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/static/admin/js/generic-lookup.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/static/admin/js/jquery-1.9.1.min.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/static/admin/js/jquery.sortable.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/static/bootstrap/css/bootstrap-theme.css</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/static/bootstrap/css/bootstrap-theme.min.css</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/static/bootstrap/css/bootstrap.css</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/static/bootstrap/css/bootstrap.min.css</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/static/bootstrap/fonts/glyphicons-halflings-regular.eot</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/static/bootstrap/fonts/glyphicons-halflings-regular.svg</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/static/bootstrap/fonts/glyphicons-halflings-regular.ttf</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/static/bootstrap/fonts/glyphicons-halflings-regular.woff</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/static/bootstrap/js/bootstrap.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/static/bootstrap/js/bootstrap.min.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/admin/404.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/admin/500.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/admin/actions.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/admin/app_index.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/admin/auth/user/add_form.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/admin/auth/user/change_password.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/admin/base.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/admin/base_site.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/admin/bootstrapped_extra/app_name.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/admin/change_form.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/admin/change_list.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/admin/change_list_results.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/change_form.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/change_list.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/includes/fieldset.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/menu_item.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/plugin_change_form.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/admin/cms/page/widgets/installed_plugins_inc.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/admin/date_hierarchy.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/admin/delete_confirmation.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/admin/delete_selected_confirmation.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/admin/edit_inline/stacked.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/admin/edit_inline/tabular.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/admin/filer/actions.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/admin/filer/admin_app_name.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/admin/filer/breadcrumbs.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/admin/filer/change_form.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/change_form.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/directory_listing.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/admin/filer/folder/directory_table.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/admin/filer/image/change_form.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/admin/filer/tools/clipboard/clipboard.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/admin/filer/tools/search_form.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/admin/filter.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/admin/includes/fieldset.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/admin/index.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/admin/invalid_setup.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/admin/language_selector.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/admin/login.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/admin/object_history.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/admin/page_submit_line.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/admin/pagination.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/admin/prepopulated_fields_js.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/admin/search_form.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/admin/submit_line.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/registration/logged_out.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/registration/password_change_done.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/registration/password_change_form.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/registration/password_reset_complete.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/registration/password_reset_confirm.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/registration/password_reset_done.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/bootstrap3/templates/registration/password_reset_form.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/models.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/static/admin/css/admin-inlines.css</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/static/admin/css/overrides.css</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/static/admin/js/generic-lookup.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/static/admin/js/jquery-1.9.1.min.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/static/admin/js/jquery-migrate-1.2.1.min.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/static/admin/js/jquery.sortable.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/static/bootstrap/css/bootstrap-responsive.css</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/static/bootstrap/css/bootstrap-responsive.min.css</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/static/bootstrap/css/bootstrap.css</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/static/bootstrap/css/bootstrap.min.css</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/static/bootstrap/img/glyphicons-halflings-white.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/static/bootstrap/img/glyphicons-halflings.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/static/bootstrap/js/bootstrap.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/static/bootstrap/js/bootstrap.min.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/admin/404.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/admin/500.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/admin/actions.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/admin/app_index.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/admin/auth/user/add_form.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/admin/auth/user/change_password.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/admin/base.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/admin/base_site.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/admin/bootstrapped_extra/app_name.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/admin/change_form.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/admin/change_list.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/admin/change_list_results.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/admin/cms/page/change_form.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/admin/cms/page/change_list.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/admin/cms/page/includes/fieldset.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/admin/cms/page/menu_item.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/admin/cms/page/plugin_change_form.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/admin/cms/page/widgets/installed_plugins_inc.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/admin/date_hierarchy.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/admin/delete_confirmation.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/admin/delete_selected_confirmation.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/admin/edit_inline/stacked.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/admin/edit_inline/tabular.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/admin/filer/actions.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/admin/filer/admin_app_name.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/admin/filer/breadcrumbs.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/admin/filer/change_form.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/admin/filer/folder/change_form.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/admin/filer/folder/directory_listing.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/admin/filer/folder/directory_table.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/admin/filer/image/change_form.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/admin/filer/tools/clipboard/clipboard.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/admin/filer/tools/search_form.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/admin/filter.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/admin/includes/fieldset.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/admin/index.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/admin/invalid_setup.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/admin/language_selector.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/admin/login.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/admin/object_history.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/admin/page_submit_line.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/admin/pagination.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/admin/prepopulated_fields_js.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/admin/search_form.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/admin/submit_line.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/registration/logged_out.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/registration/password_change_done.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/registration/password_change_form.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/registration/password_reset_complete.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/registration/password_reset_confirm.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/registration/password_reset_done.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templates/registration/password_reset_form.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templatetags/__init__.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/templatetags/bootstrapped_goodies_tags.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/unifordummies-env/lib/python3.4/site-packages/django_admin_bootstrapped/widgets.py</PATH>
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Deleted" />
+            <option name="myStatusName" value="Deleted" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="true" />
+            <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Restored" />
+            <option name="myStatusName" value="Will be restored" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="RESTORED" />
+          </FILE-GROUP>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Modified" />
+          <option name="myStatusName" value="Modified" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MODIFIED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Skipped" />
+          <option name="myStatusName" value="Skipped" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SKIPPED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with conflicts" />
+          <option name="myStatusName" value="Will be merged with conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_CONFLICTS" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with tree conflicts" />
+          <option name="myStatusName" value="Merged with tree conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with property conflicts" />
+          <option name="myStatusName" value="Will be merged with property conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged" />
+          <option name="myStatusName" value="Will be merged" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Not in repository" />
+          <option name="myStatusName" value="Not in repository" />
+          <option name="mySupportsDeletion" value="true" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UNKNOWN" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally added" />
+          <option name="myStatusName" value="Locally added" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_ADDED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally removed" />
+          <option name="myStatusName" value="Locally removed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_REMOVED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Switched" />
+          <option name="myStatusName" value="Switched" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SWITCHED" />
+        </FILE-GROUP>
+      </UpdatedFiles>
+    </UpdateInfo>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="unifordummies" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="unifordummies" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.3" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="unifordummies" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="unifordummies" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="unifordummies" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="unifordummies" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7639bdd6-51bd-40bb-862e-35bc9504e031" name="Default" comment="" />
+      <created>1398525524099</created>
+      <updated>1398525524099</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Some code for the Posts and View Post page which, however, is not yet tested. Also: base page for results and error page">
+      <created>1398536407567</created>
+      <updated>1398536407567</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Some code for the Posts and View Post page which, however, is not yet tested. Also: base page for results and error page">
+      <created>1398584124238</created>
+      <updated>1398584124238</updated>
+    </task>
+    <task id="LOCAL-00003" summary="merged base.html">
+      <created>1398586194282</created>
+      <updated>1398586194282</updated>
+    </task>
+    <task id="LOCAL-00004" summary="merged base.html">
+      <created>1398590005233</created>
+      <updated>1398590005233</updated>
+    </task>
+    <task id="LOCAL-00005" summary="merged base.html">
+      <created>1398591080235</created>
+      <updated>1398591080235</updated>
+    </task>
+    <task id="LOCAL-00006" summary=".">
+      <created>1398593278854</created>
+      <updated>1398593278854</updated>
+    </task>
+    <task id="LOCAL-00007" summary="much change (post and posts template and the corresponding views), such fixes, so work. wow.">
+      <created>1398597245894</created>
+      <updated>1398597245894</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-2" y="0" width="1924" height="1057" extended-state="7" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32985386" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973932" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32985386" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31732777" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="Some code for the Posts and View Post page which, however, is not yet tested. Also: base page for results and error page" />
+    <MESSAGE value="merged base.html" />
+    <MESSAGE value="." />
+    <MESSAGE value="much change (post and posts template and the corresponding views), such fixes, so work. wow." />
+    <option name="LAST_COMMIT_MESSAGE" value="much change (post and posts template and the corresponding views), such fixes, so work. wow." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$USER_HOME$/Плот/urls.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/unifordummies/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unifordummies/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/default/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="907">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unifordummies/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="929">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/unifordummies/error.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="114" selection-end="114" vertical-scroll-proportion="-4.071429" vertical-offset="0" max-vertical-offset="228">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/default/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="32" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="266">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/default/programme_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="909">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/default/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="907">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/unifordummies/results.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/default/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="772" selection-end="1643" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1045">
+          <folding>
+            <element signature="e#0#28#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/unifordummies/programme_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="903">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/default/programme.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="35" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0646992" vertical-offset="0" max-vertical-offset="881">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="909">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/default/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="8" selection-start="0" selection-end="1735" vertical-scroll-proportion="-11.392858" vertical-offset="650" max-vertical-offset="1216">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Плот/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="1104" selection-end="1153" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+          <folding>
+            <element signature="e#0#51#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/unifordummies/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="881">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unifordummies/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="48" selection-start="1315" selection-end="1315" vertical-scroll-proportion="0.0" vertical-offset="627" max-vertical-offset="1995">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/default/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="27" selection-start="297" selection-end="297" vertical-scroll-proportion="-5.428571" vertical-offset="0" max-vertical-offset="456">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/default/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="664" selection-end="664" vertical-scroll-proportion="-16.964285" vertical-offset="0" max-vertical-offset="589">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/unifordummies/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="58" selection-end="58" vertical-scroll-proportion="9.928572" vertical-offset="335" max-vertical-offset="1216">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/unifordummies/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="58" selection-start="481" selection-end="481" vertical-scroll-proportion="-10.857142" vertical-offset="0" max-vertical-offset="627">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/unifordummies/posts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="6.107143" vertical-offset="171" max-vertical-offset="760">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/default/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="0" selection-start="968" selection-end="968" vertical-scroll-proportion="0.0" vertical-offset="718" max-vertical-offset="1292">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/unifordummies/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="339" selection-end="339" vertical-scroll-proportion="-4.75" vertical-offset="19" max-vertical-offset="266">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unifordummies/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="35" selection-start="1802" selection-end="1802" vertical-scroll-proportion="0.0" vertical-offset="684" max-vertical-offset="1330">
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/unifordummies/programme.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="931">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unifordummies/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="56" selection-start="515" selection-end="515" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="475">
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/unifordummies/base_results.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="304" selection-end="304" vertical-scroll-proportion="0.30265486" vertical-offset="0" max-vertical-offset="565">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

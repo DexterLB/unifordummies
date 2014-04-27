@@ -1,0 +1,34 @@
+{% extends "unifordummies/base_results.html" %}
+
+{% block title %}Мнения за {{ programme.name }}{% endblock %}
+
+{% block content %}
+        <ul id="posts">
+            {% for post in posts.object_list %}
+                <ul id="posts.{{post.id}}">
+                    <li id="posts.{{post.id}}.title"><span></span><a href="programme/{{ programme.id }}/{{ post.id }}">{{ post.title }}</a></li>
+                    <li id="posts.{{post.id}}.text"><span></span>{{ post.text | truncatewords: 200 }}</li>
+                    <li id="posts.{{post.id}}.date"><span></span>{{ post.date }}</li>
+                    <li id="posts.{{post.id}}.vote"><span></span>{{ post.vote }}</li>
+                </ul>
+            {% endfor %}
+        </ul>
+
+        <ul id="navbuttons">
+            {% if posts.has_previous %}
+            <li><a href="programme/{{ programme.id }}/{{ posts.previous_page_number }}" id="posts.goto(first)"><button type="button" id="posts.goto(first).button">&lt;</button></a></li>
+            {% endif %}
+            <li>
+            {% for page in posts.paginator.page_range %}
+                {% if posts.number == page %}
+                <button type="button" id="posts.goto({{ page }}).button">{{ page }}</button>
+                {% else %}
+                <a href="programme/{{ programme.id }}/{{ page }}"><button type="button" id="posts.goto({{ page }}).button">{{ page }}</button></a>
+                {% endif %}
+            </li>
+            {% endfor %}
+            {% if posts.has_next %}
+            <li><a href="programme/{{ programme.id }}/{{ posts.next_page_number }}" id="posts.goto(last)"><button type="button" id="posts.goto(last).button">&gt;</button></a></li>
+            {% endif %}
+        </ul>
+{% endblock %}
