@@ -1,7 +1,8 @@
-{% extends "default/base.html" %}
+{% extends "unifordummies/base.html" %}
 
 {% load staticfiles %}
 
+{% block title %}Начална страница{% endblock %}
 {% block content %}
 <div class="row">
     <div class="col-xs-8 col-xs-offset-2">
@@ -25,8 +26,13 @@
             {% for cat_cat in spec_cat_cat %}
                 <div class="panel panel-primary">
                     <div class="panel-heading">
-                        <h3 class="panel-title">{{ cat_cat.name }}</h3>
+                        <h3 class="panel-title">
+                            <a data-toggle="collapse" data-target="#collapseOne" href="#collapseOne">
+                                {{ cat_cat.name }}
+                            </a>
+                        </h3>
                     </div>
+                    <div id="{{ cat.id }} collapseOne" class="panel-collapse collapse in"
                     <ul class="list-group">
                         {% for cat in cat_cat.categories.all %}
                             <li class="list-group-item">
