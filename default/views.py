@@ -52,8 +52,12 @@ def _sort_results(results):
 
 def programme_view(request, programme_id):
     programme = models.Programme.objects.get(id=programme_id)
-    return render(request, 'default/programme.html',
-                  {'programme': programme})
+    most_voted_posts = [post for post in
+                        programme.posts.all().order_by('-vote')[:3]]
+    return render(request, 'default/programme.html', {
+        'programme': programme,
+        'most_voted_posts': most_voted_posts,
+    })
 
 
 def posts_view(request, programme_id, cat_id):
