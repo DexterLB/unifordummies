@@ -1,12 +1,46 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Test</title>
-  <meta charset="utf-8" />
-</head>
-<body>
-  <header>
-    <h1>Test</h1>
-  </header>
-</body>
-</html>
+{% extends "default/base.html" %}
+
+{% load staticfiles %}
+
+{% block content %}
+<div class="row">
+    <div class="col-xs-8 col-xs-offset-2">
+        <h1>Добре дошли в UniForDummies!</h1>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-3">
+        <img src="{% static 'img/logo.png' %}" alt="UniForDummies Logo" width="250" height="250">
+        <ul class="nav nav-stacked">
+            {% for cat in spec_cat %}
+                <li>
+                    <a href="/search/{{cat.id}}">{{cat.name}}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div class="col-xs-9">
+        <form method="post" action="/search/"> {% csrf_token %}
+            {% for cat_cat in spec_cat_cat %}
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">{{ cat_cat.name }}</h3>
+                    </div>
+                    <ul class="list-group">
+                        {% for cat in cat_cat.categories.all %}
+                            <li class="list-group-item">
+                                <input type="checkbox" id="{{ cat.id }}-check" name="{{ cat.id }}-cat">
+                                <label for="{{ cat.id }}-check">{{ cat.name }}</label>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            {% endfor %}
+            <div class="col-xs-3 col-xs-offset-4">
+                <input class="btn btn-primary btn-lg" type="submit" value="Search" />
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}
