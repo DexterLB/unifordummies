@@ -10,7 +10,11 @@ body {
     background-color: rgba(204, 204, 204, 0.5);
 }
 
-.list_fix {
-    margin-left: none;
-    margin-right: none;
+.title_left {
+    text-align: center;
+}
+
+.title_left .title_right {
+    font-family: 'Comfortaa', 'cursive';
+    font-weight: 200;
 }

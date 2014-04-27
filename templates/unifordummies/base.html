@@ -1,23 +1,22 @@
+{% load staticfiles %}
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bg">
 <head>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap-theme.min.css' %}">
+    <link rel="stylesheet" href="{% static "css/default.css" %}">
+
     <title>{% block title %}{% endblock %} - UniForDummies, помощникът за всеки кандидат-студент</title>
 </head>
 
 <body>
-    <div id="navbar">
-        {% block navbar %}
-		<div id="navbar">
-			<ul>
-				<li><a href="{% url 'login' %}">Вход</a></li>
-				<li><a href="{% url 'register' %}">Регистрация</a></li>
-			</ul>
-		</div>
-        {% endblock %}
-    </div>
-
-    <div id="content">
+    <div id="content" class="container_body_box">
         {% block content %}{% endblock %}
     </div>
+
+    <script src="{% static "js/jquery-1.11.0.min.js" %}"></script>
+    <script src="{% static "js/bootstrap.min.js" %}"></script>
+    {% block scripts %}{% endblock %}
 </body>
 </html>
